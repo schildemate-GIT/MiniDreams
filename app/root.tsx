@@ -1,3 +1,4 @@
+// app/root.tsx
 export default function RootLayout({
   children,
 }: {
@@ -6,10 +7,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>My App</title>
+        <title>MiniDreams</title>
       </head>
       <body>
-        <h1>Hello</h1>
+        <h1>Hello MiniDreams!</h1>
         {children}
       </body>
     </html>
