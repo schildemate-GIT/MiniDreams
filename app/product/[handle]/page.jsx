@@ -1,7 +1,7 @@
 import { getProductByHandle, getRecommendedProducts } from '@/lib/shopify';
 import { notFound } from 'next/navigation';
-import Header from './components/Header';
-
+import Header from '@/app/components/Header';
+s
 export default async function ProductPage({ params }) {
   const { handle } = await params;
   const product = await getProductByHandle(handle);
